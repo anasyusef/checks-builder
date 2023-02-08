@@ -1,0 +1,12 @@
+diff --git a/node_modules/react-selectable-fast/lib/Selectbox.js b/node_modules/react-selectable-fast/lib/Selectbox.js
+index 974b402..20cf844 100644
+--- a/node_modules/react-selectable-fast/lib/Selectbox.js
++++ b/node_modules/react-selectable-fast/lib/Selectbox.js
+@@ -46,6 +46,7 @@ function Selectbox(props) {
+         cursor: 'default',
+         willChange: 'transform',
+         transform: 'translateZ(0)',
++        display: state.width === 0 && state.height === 0 ? 'none' : 'block'
+     };
+     return react_1.default.createElement("div", { className: className, style: boxStyle });
+ }

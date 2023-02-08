@@ -1,10 +1,6 @@
-import Head from "next/head"
-import Link from "next/link"
 
-import { siteConfig } from "@/config/site"
 import { ChecksGrid } from "@/components/ChecksGrid"
 import { Layout } from "@/components/layout"
-import { buttonVariants } from "@/components/ui/button"
 
 export default function IndexPage() {
   return (
